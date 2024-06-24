@@ -7,7 +7,7 @@ from role_mapping import hash_to_role_map
 
 app = FastAPI()
 
-API_ENDPOINT = 'https://discord.com/api/v10'
+API_ENDPOINT = 'link_api_discord'
 
 CLIENT_ID = env.CLIENT_ID
 CLIENT_SECRET = env.SECRET
